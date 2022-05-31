@@ -29,27 +29,29 @@
 
 ## :dart: Description
 
-Eyes Movement is... <!-- an application that uses languages such as HTML, CSS, and JS, tools such as APIs, and concepts such as asynchronous programming to build a map where you can view the stops and buses that run between MIT and Harvard University. The incredible thing about this application is that the status of the route can be monitored at the time the user wants and the information displayed will correspond to real-time data to support the mobility process of people who want to go from one school to another.-->
+Eyes Movement is an application where the basic front-end languages (HTML, CSS and JS) interact to create a fun interface that responds to the movement of the pointer in the browser.
+
+The project is made up of a pair of eyes that constantly pay attention to a bee's position and as it gets closer to them, the color of the skin changes to reddish when the bee is at the closest point.
 
 ## :sparkles: Roadmap
 
 The characteristics that this project currently has are:
 
-:heavy_check_mark: <!--A map is displayed initially positioned in such a way that it shows most of the route on the screen.-->
+:heavy_check_mark: The pointer is a bee.
 
-:heavy_check_mark: <!--There is a button to start monitoring the buses on the route.-->
+:heavy_check_mark: There is a pair of eyes that move proportionally according to the movement of the pointer.
 
-:heavy_check_mark: <!--The buses that are currently between MIT and Harvard are shown so that the user can see if they are before or have already passed through their station.-->
+:heavy_check_mark: The background color changes proportionally according to the movement of the pointer.
 
-:heavy_check_mark: <!--Different bus icons and colors are used to distinguish stops (blue) from moving buses (red)-->
+:heavy_check_mark: There is a sign that updates indicating the position of the bee (near, far or approaching).
 
-The main objective of this project is... <!--to take advantage of and interact with the resources and information provided by the APIs to build applications. This work has complied with this approach, however, it has done so in the simplest way possible, so the following improvements are proposed to complement it:-->
+The main objective of this project is to learn how to manipulate the DOM of a web application. Also, its purpose is to handle events such as the movement of the pointer on the browser window. In the first instance, the application has fulfilled its objective, however, it is still possible to make improvements to complement it, such as:
 
-:pushpin: <!--Add a special icon that indicates the user's location in real time to identify their position with respect to the rest of the elements on the map.-->
+:pushpin: Allow the user to switch from the pointer image.
 
-:pushpin: <!--Add names to bus stops.-->
+:pushpin: Improve the UI by delimiting the character's face and body, allowing only that region to change color, leaving the background with other color characteristics or an image.
 
-:pushpin: <!--Add monitored routes to other sites users frequent.>
+:pushpin: Put more responses to events like a left click that triggers a hand moving to scare the bug.
 
 ## :white_check_mark: Requirements
 
@@ -65,13 +67,7 @@ $ git clone https://github.com/AlexisCastro12/Eyes-Movement.git
 
 Find the folder in the path where the clone was made and open the './index.html' file in any browser (Chrome recommended).
 
-<!--Initially, the map is shown with the bus stops (blue markers) that are between MIT and Harvard.
-
-Press the 'show the status of the route 1 buses' button to start monitoring the buses on the route in real time (red markers).
-
-If needed, zoom in or out on the map using the '+' or '-' buttons.-->
-
-<!--This section is complete-->
+Initially the eyes are centered, just slide the pointer along the browser window and it will change the background color. Also, the proximity of the bee will be indicated in the banner in the upper left corner
 
 ## :wrench: Support
 
