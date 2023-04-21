@@ -33,7 +33,7 @@ Eyes Movement is an application where the basic front-end languages (HTML, CSS a
 
 The project is made up of a pair of eyes that constantly pay attention to a bee's position and as it gets closer to them, the color of the skin changes to reddish when the bee is at the closest point.
 
-## :sparkles: Roadmap
+## :sparkles: Features
 
 The characteristics that this project currently has are:
 
@@ -47,7 +47,7 @@ The characteristics that this project currently has are:
 
 The main objective of this project is to learn how to manipulate the DOM of a web application. Also, its purpose is to handle events such as the movement of the pointer on the browser window. In the first instance, the application has fulfilled its objective, however, it is still possible to make improvements to complement it, such as:
 
-:pushpin: Allow the user to switch from the pointer image.
+:pushpin: Allow the user to change the pointer image.
 
 :pushpin: Improve the UI by delimiting the character's face and body, allowing only that region to change color, leaving the background with other color characteristics or an image.
 
